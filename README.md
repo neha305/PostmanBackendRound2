@@ -6,4 +6,5 @@
 - Template taken from W3Schools and reused everywhere.<br>
 - Alerts like "incorrect password" and "logout successful" shown in terminal. Other terminal outputs were for testing purposes that are now too scattered to find and remove. Code needs major cleanup. <br>
 - I know this is not upto the mark but I had fun doing it. Thank you for the task and the deadline extensions. Sorry about the messy code.<br>
+- localhost:8080/<br>
 - I will now end this README.<br>
