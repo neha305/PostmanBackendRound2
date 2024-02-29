@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "cd15f8f2-14dc-4e60-b82f-fa854d8db815",
+		"name": "MyCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33276169"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/sign-in",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sign-in"
+					]
+				},
+				"description": "Login with existing credentials, check that username and password are both correct"
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/sign-up",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sign-up"
+					]
+				},
+				"description": "Create new profile with username and password, ensuring that username is unique. Add username and hashed password to database."
+			},
+			"response": []
+		},
+		{
+			"name": "ViewProfile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profile",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profile"
+					]
+				},
+				"description": "View your own profile."
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"logout"
+					]
+				},
+				"description": "Logout of your account."
+			},
+			"response": []
+		},
+		{
+			"name": "ViewAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/viewall",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"viewall"
+					]
+				},
+				"description": "View all existing users apart from yourself."
+			},
+			"response": []
+		},
+		{
+			"name": "ViewOtherProfile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/other",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"other"
+					]
+				},
+				"description": "View profile of another account."
+			},
+			"response": []
+		},
+		{
+			"name": "AddProfilePic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/addpfp",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addpfp"
+					]
+				},
+				"description": "Add a profile picture to your account."
+			},
+			"response": []
+		},
+		{
+			"name": "UploadingProfilePic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/uploadpfp",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploadpfp"
+					]
+				},
+				"description": "Upload the profile picture"
+			},
+			"response": []
+		},
+		{
+			"name": "Follow",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/follow",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"follow"
+					]
+				},
+				"description": "Follow another account."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/newpost",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"newpost"
+					]
+				},
+				"description": "Create a new post."
+			},
+			"response": []
+		},
+		{
+			"name": "UploadNewPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/uploadpost",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploadpost"
+					]
+				},
+				"description": "Upload the post to the database with its path and tags."
+			},
+			"response": []
+		},
+		{
+			"name": "ViewPost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/viewpost",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"viewpost"
+					]
+				},
+				"description": "View your own post."
+			},
+			"response": []
+		},
+		{
+			"name": "Comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/comment",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"comment"
+					]
+				},
+				"description": "Add a comment to a post."
+			},
+			"response": []
+		},
+		{
+			"name": "Like",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/like",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"like"
+					]
+				},
+				"description": "Like a post."
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/search",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search"
+					]
+				},
+				"description": "Search for posts with their tag."
+			},
+			"response": []
+		}
+	]
+}
